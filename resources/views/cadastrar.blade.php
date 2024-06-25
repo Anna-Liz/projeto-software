@@ -31,14 +31,14 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 70vh;
+            height: 50vh;
             width: 50vw;
             background-color: rgb(239, 163, 244);
             border-radius: 10px;
             gap: 15px;
         }
         label{
-            font-size: 28px;
+            font-size: 20px;
         }
         input{
             border-radius: 4px;
@@ -49,15 +49,25 @@
             border-radius: 4px;
             border: none;
             width: 20%;
-            height: 5%;
+            height: 8%;
             background-color: rgb(183, 104, 207);
             font-size: large;
+        }
+        a{
+            width: 10%;
+            height: 30%;
+            background-color: white;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 6px;
         }
     </style>
 </head>
 
 <body>
-<header>Cadastrar Livro</header>
+<a href="/dashboard">Voltar</a>
+<header>Cadastrar Livro:</header>
 <form action="/cadastre-seu-livrinho" method="post">
     @csrf
     <div class="box">
