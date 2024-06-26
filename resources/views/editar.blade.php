@@ -54,8 +54,7 @@
             font-size: large;
         }
         a{
-            width: 10%;
-            height: 30%;
+            padding: 12px;
             background-color: white;
             text-align: center;
             margin-top: 10px;
